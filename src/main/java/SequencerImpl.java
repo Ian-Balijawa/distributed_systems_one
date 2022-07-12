@@ -17,7 +17,7 @@ public class SequencerImpl implements Sequencer  {
     public void send(String sender, byte[] msg, long msgID, long lastSequenceReceived)
             throws RemoteException{
 
-    };
+    }
 
     // leave -- tell sequencer that "sender" will no longer need its services
     public void leave(String sender)
